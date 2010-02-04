@@ -209,8 +209,9 @@ body { background: #f1edd0 url('../img/bg.jpg') repeat top left; margin: 0; }
 
 /* CONTACT PAGE ---------------------------------------------------------- */
 
-    .contact { min-height: 570px; padding-bottom: 30px !important; }
-    #contact-form { padding-top: 15px; float: left; }
+#contact h3 { font-family: "Georgia"; color: #1E1B16; font-size: 19px; font-weight: bold; font-style: italic; padding: 20px 0 0 5px; }
+#contact p { font-family: Arial, Geneva, sans-serif; color: #706f6a; font-size: 12px; line-height: 1.6; position: relative; z-index: 10; margin: 5px 0 5px; }
+
     .main_col input, .main_col textarea, .main_col select { background: url('../img/input_bg.jpg') no-repeat top left; border: 1px solid #eaebdf; font-family: Helvetica, sans-serif; font-size: 12px; letter-spacing: 1px; padding: 6px; width: 406px; float: left; color: #585451; font-weight: bold; margin-top: 5px;}
     .main_col input:focus, .main_col textarea:focus, .main_col select:focus { border-color: #bcbdb3; color: #2D281D; }
     .main_col .row { float: left; margin: 0 0 25px 0; }
@@ -254,9 +255,9 @@ body { background: #f1edd0 url('../img/bg.jpg') repeat top left; margin: 0; }
   #content-wrap #content-top { margin-left: 0; }
     #content-body { background: url('../img/content-footer.jpg') no-repeat 0 100%; width: 939px; min-height: 600px; padding-bottom: 5px; padding: 0 3px 6px 1px; overflow: hidden; font-size: 12px; margin-top: -51px; }
     
-      .main_col { /*width: 485px; */float: left; padding: 35px 50px 0 45px; font-family: Helvetica, sans-serif; color: #706f6a; border-right: 1px solid #ebecdc; position: relative; }
-      .main_col h3 { font-family: Georgia, serif; font-size: 20px; font-weight: bold; font-style: italic; color: #2d281d; margin: 0 0 .5em; float: left; }
-      .main_col p { line-height: 1.6; font-size: 14px; text-indent: 1em; text-align: justify; margin: 0 0 1.25em; position: relative; z-index: 5; clear: left; }
+      .main_col { /*width: 485px; float: left;*/ padding: 35px 50px 0 45px; font-family: Helvetica, sans-serif; color: #706f6a; border-right: 1px solid #ebecdc; position: relative; }
+      .main_col h3,  #content-body h3 { font-family: Georgia, serif; font-size: 20px; font-weight: bold; font-style: italic; color: #2d281d; margin: 0 0 .5em; float: left; }
+      .main_col p,  #content-body p { line-height: 1.6; font-size: 14px; text-indent: 1em; text-align: justify; margin: 0 0 1.25em; position: relative; z-index: 5; clear: left; }
         #affiliations { list-style: none; margin: 25px -49px 3px -44px; width: 578px; }
         #affiliations li { padding: 10px 30px 11px 30px; width: 518px; overflow: hidden; background: url(../img/hr-simple.png) no-repeat 0 0; }
         #affiliations li p { margin: 6px 0; position: relative; z-index: 10; clear: none; } 
