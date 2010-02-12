@@ -42,7 +42,7 @@ body { background: #f1edd0 url('../img/bg.jpg') repeat top left; margin: 0; }
 	margin: 0; padding: 0;
 	display: none;
 	float: left;
-	z-index: 100;
+	z-index: 255;
 	border-bottom: 1px #92907C solid;
 	width: 300px;
 }
@@ -106,7 +106,7 @@ body { background: #f1edd0 url('../img/bg.jpg') repeat top left; margin: 0; }
     #content-top .tab-section { width: 100%; height: 264px; overflow: hidden; }
       #content-top .tab-section img { float: left; padding: 0 30px 0 35px; }
     #content-top .text { float: left; width: 395px; padding: 35px 0 0 0px; }
-      #content-top .text h3 { font-family: Verdana, Geneva, sans-serif; font-size: 26px; color: #49473e; margin: 0 0 10px; position: relative; z-index: 100; display: block; }
+      #content-top .text h3 { font-family: Verdana, Geneva, sans-serif; font-size: 26px; color: #49473e; margin: 0 0 10px; position: relative; z-index: 99; display: block; }
       #content-top .text p { color: #676661; font-family: Verdana, Geneva, sans-serif; font-size: 12px; line-height: 1.6; clear: left; }
       #content-top .text .button { position: relative; float: left; background: url('../img/button-right.jpg') no-repeat top right; font-family: Verdana, Geneva, sans-serif; color:#555e4e; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 18px; padding-left: 15px; } 
         #content-top .text .button a { float: left; display: block; color:#555e4e; text-decoration: none;  background: url('../img/button-left.jpg') no-repeat top left; padding-right: 15px; line-height: 28px; height: 28px; white-space: nowrap; margin-left: -15px; padding-left: 15px; min-width: 104px; text-align: center; }
