@@ -11,7 +11,7 @@ a:link:hover, a:visited:hover, span.faux-link:hover { text-decoration: underline
 .clear { clear: both; }
 abbr { border-bottom: 1px dotted; cursor: alias; }
 
-img, #instrumentsL,#instrumentsR,.hr-sketch,.hr-entry,.flourish-left,.flourish-right,#logo a { behavior: url('../js/iepngfix.htc') }
+img, #instrumentsL,#instrumentsR,.hr-sketch,.hr-entry,.flourish-left,.flourish-right, #logo a { behavior: url('../js/iepngfix.htc') }
 
 p em { font-style: italic; }
 
